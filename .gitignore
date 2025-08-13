@@ -1,0 +1,47 @@
+# Ignore kaggle credentials
+kaggle.json
+
+# Ignore your Colab training code
+code.py
+colab_code/
+*.ipynb
+
+# Ignore Python cache and build files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore environment/virtualenv files
+.env
+.venv
+env/
+venv/
+ENV/
+*.env
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore zip and dataset files
+*.zip
+*.tar
+*.gz
+*.bz2
+*.7z
+*.rar
+
+# Ignore backup files
+*~
