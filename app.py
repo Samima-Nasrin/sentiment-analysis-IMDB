@@ -3,6 +3,11 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import pickle
 
+# Set page configuration
+st.set_page_config(page_title="Sentiment Analyser for IMDB Movie Reviews",
+                   layout="wide",
+                   page_icon="📊")
+
 # Load model and tokenizer
 model = load_model("sentiment_model.h5")
 with open("tokenizer.pkl", "rb") as f:
